@@ -1,3 +1,7 @@
-i = 0
-for i in range (i < 10):
-    print(i)
+i = int(input())
+lis = list(map(int,input().split()))
+z = max(lis)
+while max(lis) == z:
+    lis.remove(max(lis))
+
+print (max(lis))

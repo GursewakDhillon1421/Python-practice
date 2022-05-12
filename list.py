@@ -10,7 +10,7 @@
 List1 = ["apple" , "banana" , "cherry"]
 List2 = ["apple" , "banana" , "cherry"]
 print(len(List1))
-print(List1[-1])
+print(List1[::-1]) # Print list in reverse order
 print(List1[-3:-1])
 
 
